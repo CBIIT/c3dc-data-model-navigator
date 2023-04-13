@@ -1,6 +1,6 @@
 {
-  "homepage": ".",
-  "name": "ICDC-Frontend",
+  "name": "C3DC-Data-Model-Navigator",
+  "homepage": "https://cbiit.github.io/c3dc-data-model-navigator",
   "version": "0.1.0",
   "dependencies": {
     "@apollo/client": "^3.3.4",
@@ -113,6 +113,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
+    "predeploy": "node scripts/build.js",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "jest",
@@ -152,6 +154,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^5.0.0",
     "jest": "^26.6.3",
     "jest-svg-transformer": "^1.0.0"
   }
