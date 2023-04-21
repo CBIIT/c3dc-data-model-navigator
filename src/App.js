@@ -10,8 +10,8 @@ import {
   graphViewConfig,
 } from './dataDictionaryData';
 
-const DATA_MODEL = 'https://raw.githubusercontent.com/CBIIT/icdc-model-tools/master/model-desc/icdc-model.yml?token=GHSAT0AAAAAAB7VEUK4VKTLAQPJLOTJVPFMZBYKXCQ';
-const DATA_MODEL_PROPS = 'https://raw.githubusercontent.com/CBIIT/c3dc-model-data-viz/main/model-desc/c3dc-model-props.yml';
+const DATA_MODEL = 'https://raw.githubusercontent.com/CBIIT/c3dc-model/main/model-desc/c3dc-model.yml';
+const DATA_MODEL_PROPS = 'https://raw.githubusercontent.com/CBIIT/c3dc-model/main/model-desc/c3dc-model-props.yml';
 const DATA_MODEL_README = 'https://raw.githubusercontent.com/CBIIT/c3dc-model-data-viz/main/README.md';
 
 async function getData() {
