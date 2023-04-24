@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { ReduxDataDictionary, getModelExploreData } from 'data-model-navigator';
+import { ReduxDataDictionary, getModelExploreData } from 'c3dc-data-model-navigator';
 import store from './store';
 import {
   filterConfig,

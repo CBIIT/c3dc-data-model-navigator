@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import ReduxThunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
-import { ddgraph, moduleReducers as submission, versionInfo } from 'data-model-navigator';
+import { ddgraph, moduleReducers as submission, versionInfo } from 'c3dc-data-model-navigator';
 
 const reducers = {
   ddgraph,
