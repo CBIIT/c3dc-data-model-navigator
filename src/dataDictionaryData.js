@@ -17,81 +17,6 @@ export const defaultFacetSectionVariables = {
 };
 
 export const facetFilterSearchData = [
-  {
-    groupName: 'Category',
-    datafield: 'category',
-    section: 'Filter By Nodes',
-    tooltip: 'category',
-    show: true,
-    checkboxItems: [
-      { name: 'Administrative', isChecked: false, group: 'category' },
-      { name: 'Analysis', isChecked: false, group: 'category' },
-      { name: 'Biospecimen', isChecked: false, group: 'category' },
-      { name: 'Case', isChecked: false, group: 'category' },
-      { name: 'Clinical', isChecked: false, group: 'category' },
-      { name: 'Clinical_Trial', isChecked: false, group: 'category' },
-      { name: 'Data_File', isChecked: false, group: 'category' },
-      { name: 'Study', isChecked: false, group: 'category' },
-    ],
-  },
-  {
-    groupName: 'Assignment',
-    datafield: 'assignment',
-    section: 'Filter By Nodes',
-    tooltip: 'assignment',
-    show: true,
-    checkboxItems: [
-      { name: 'Core', isChecked: false, group: 'assignment' },
-      { name: 'Extended', isChecked: false, group: 'assignment' },
-    ],
-  },
-  {
-    groupName: 'Class',
-    datafield: 'class',
-    section: 'Filter By Nodes',
-    tooltip: 'class',
-    show: true,
-    checkboxItems: [
-      { name: 'Primary', isChecked: false, group: 'class' },
-      { name: 'Secondary', isChecked: false, group: 'class' },
-    ],
-  },
-  // {
-  //   groupName: 'Multiplicity',
-  //   datafield: 'multiplicity',
-  //   section: 'Filter By Relationship',
-  //   tooltip: 'multiplicity',
-  //   show: true,
-  //   checkboxItems: [
-  //     { name: 'One_to_one', isChecked: false, group: 'multiplicity' },
-  //     { name: 'One_to_many', isChecked: false, group: 'multiplicity' },
-  //     { name: 'Many_to_one', isChecked: false, group: 'multiplicity' },
-  //     { name: 'Many_to_many', isChecked: false, group: 'multiplicity' },
-  //   ],
-  // },
-  {
-    groupName: 'Inclusion',
-    datafield: 'inclusion',
-    section: 'Filter By Property',
-    tooltip: 'inclusion',
-    show: true,
-    checkboxItems: [
-      { name: 'Optional', isChecked: false, group: 'optional' },
-      { name: 'Preferred', isChecked: false, group: 'preferred' },
-      { name: 'Required', isChecked: false, group: 'required' },
-    ],
-  },
-  {
-    groupName: 'UI Display',
-    datafield: 'uiDisplay',
-    section: 'Filter By Property',
-    tooltip: 'inclusion',
-    show: true,
-    checkboxItems: [
-      { name: 'no', isChecked: false, group: 'no' },
-      { name: 'yes', isChecked: false, group: 'yes' },
-    ],
-  },
 ];
 
 export const facetFilterSectionVariables = {
@@ -185,17 +110,10 @@ export const filterConfig = {
 };
 
 export const pdfDownloadConfig = {
-  fileType: 'pdf',
-  prefix: 'ICDC_Data_Model_',
-  landscape: 'true',
-  catagoryIcon: {
-    url: 'https://raw.githubusercontent.com/CBIIT/datacommons-assets/main/icdc/DMN/Pdf/',
-    type: '.png',
-  },
 };
 
 export const readMeConfig = {
-  title: 'Understanding the ICDC Data Model',
+  title: 'Understanding the C3DC Data Model',
 };
 
 export const graphViewConfig = {
